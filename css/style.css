@@ -1,0 +1,50 @@
+
+
+html, body
+{
+	background-color:#C6DEFF;
+}
+
+h1
+{
+	color:#151B8D;
+}
+
+h2, h3, h4
+{
+	color:#151B8D;
+}
+
+#RYUlogo
+{
+	width:7%;
+	display:inline-block;
+	float:right;
+}
+
+.weatherPics
+{
+
+	height:150px !important;
+	margin-left:3%;
+}
+
+#stop
+{
+	width:25%;
+	margin-left:7%;
+}
+
+
+/*Phone*/
+@media all and (max-width:480px)
+{
+
+	#stop
+	{
+		display:none;
+		visibility:none;
+	}
+
+}
+
