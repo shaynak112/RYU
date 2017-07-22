@@ -1,7 +1,7 @@
 <?php
 
 include 'header.php';
-include 'getcontent.php';
+include 'getContent.php';
 
     $result = $_POST['userStopId'];
     $result_explode = explode('|', $result);
