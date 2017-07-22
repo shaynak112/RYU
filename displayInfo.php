@@ -25,10 +25,11 @@ include 'getContent.php';
 
 <div class='row'>
 
-<div class='col l4' style='margin-left:10%;'>
+<div class='col l4' id='basicInfoCol1'>
 
-	<h2>Next Bus Arrivals</h2>
+	<h2 style='margin-left:10%;'>Next Bus Arrivals</h2>
 
+	<br/>
 	<br/>
 
 <?php
@@ -38,25 +39,26 @@ include 'getContent.php';
 		{
 			$routeTitle = $val['attributes']['ROUTETITLE'];
 			$stopName = $val['attributes']['STOPTITLE'];
-			echo "Route " . $routeTitle . "<br/>";
-			echo "Stopping at: " . $stopName . "<br/>";
+			echo "<div style='margin-left:10%;'>Route " . $routeTitle . "<br/>";
+			echo "Stopping at: " . $stopName . "</div>";
 		}
 	}
 
 ?>
+<br/>
 		<br/>
-		<div>
+		<div style='margin-left:10%;'>
 		<a href='index.php'>Do you need to check another route?</a>
 		</div>
 
 		<br/>
 
-		<img src='images/stop.jpg' id='stop' style='width:50%;margin-left:0;'>
 
+	</div> <!--end div col4-->
 
-	</div>
+	<div class='col l4' id='arrivalsCol2'>
 
-	<div class='col l4'>
+	<h2>Arrivals</h2>
 
 	<?php
 
@@ -95,9 +97,9 @@ include 'getContent.php';
 		}
 	}
 ?>
-	</div>
+	</div> <!--end div col l3-->
 
-	<div class='col l4'>
+	<div class='col l4' id='weatherCol3'>
 
 <?php
 
@@ -145,6 +147,7 @@ if ($currentHumidity > 60)
 {
 	?>
 		<div>Remember your rainboots!</div>
+		<br/>
 		<img src='images/rainy.jpg' class='weatherPics' alt='Image of rainy weather'>
 	<?php
 }
@@ -152,6 +155,7 @@ else if ($currentClouds > 40)
 {
 	?>
 		<div>Dreary today, but it could be worse.</div>
+		<br/>
 		<img src='images/cloudy.jpg' class='weatherPics' alt='Image of cloudy weather'>
 	<?php
 }
@@ -159,12 +163,14 @@ else if ($currentTemp > 20)
 {
 	?>
 		<div>Make sure you keep drinking water!</div>
+		<br/>
 		<img src='images/sun.jpg' class='weatherPics' alt='Image of sunny weather'>	<?php
 }
 else if ($currentTemp < -10)
 {
 	?>
 		<div>Good luck in this cold weather, hope you make your bus.</div>
+		<br/>
 		<img src='images/cold.jpg' class='weatherPics' alt='Image of cold weather'>
 	<?php
 }
@@ -172,15 +178,16 @@ else
 {
 	?>
 		<div>Have a lovely day!</div>
+		<br/>
 		<img src='images/logo.jpg' class='weatherPics' alt='Image of logo'>
 	<?php
 }
 
 ?>
 
-</div>
+</div><!--end col4 current weather-->
 
-</div>
+</div><!--end row-->
 
 
     
