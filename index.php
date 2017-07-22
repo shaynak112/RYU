@@ -1,7 +1,7 @@
 <?php
 
 include 'header.php';
-include 'getcontent.php';
+include 'getContent.php';
 
 $agencyTag="ttc"; //could be changed later to use a different transit system
 
@@ -22,7 +22,7 @@ $agencyTag="ttc"; //could be changed later to use a different transit system
 
 
 <div class='row'>
-<div class='col l3' style='margin-left:5%;margin-right:-30%;'>
+<div class='chooseRoute'>
 
     <h2>Choose your route</h2>
 
@@ -123,11 +123,25 @@ $agencyTag="ttc"; //could be changed later to use a different transit system
 
 </div> <!--end col wrap-->
 
-<div class='col l9'>
 
-<div class='indexPicsCar' style='width:100%;margin-left:0px;'>
+
+<div class='indexPicsCar'>
     
-    <script>
+<?php
+    $increment=0;
+    while($increment<24)
+    {
+    echo "<div class='rainClass'><img src='images/rain.jpg' class='rainImg'></div>";
+    $increment++;
+    }
+
+?>
+
+
+   <!-- <script>
+
+   <img src='images/rain.jpg' class='rainImg'>
+
     materialbox();
     </script>
     
@@ -163,7 +177,7 @@ $agencyTag="ttc"; //could be changed later to use a different transit system
         <img class="materialboxed" src="images/8.jpg" style='width:80%;margin-left:10%;'>
     </div>
 
-</div><!--end indexPicsCar-->
+</div>end indexPicsCar-->
 
 
 
@@ -171,7 +185,7 @@ $agencyTag="ttc"; //could be changed later to use a different transit system
 </div><!--end col and index wrap-->
 
 
-</div><!--end row-->
+
 
 
 

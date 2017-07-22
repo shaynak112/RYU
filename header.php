@@ -54,18 +54,20 @@
 
 
 <div class='row'>
-<div class='col l12' style='display:inline-block;vertical-align:top;'>
 
-<div class='col l4' style='display:inline-block;vertical-align:top;'>
-<img src='images/logo.jpg' style='height:130px;display:inline-block;margin-left:20%;margin-top:80px;'>
+<!--<div class='col l2 headerRainClass'>
+    <img src='images/rain.jpg' class='rainImgHead' id='rainImgHeadLeft'>
+</div>-->
+
+<div class='col l6 RYUheader'>
+    <h1>Remember Your Umbrella</h1>
 </div>
 
-<div class='col l8' style='display:inline-block;vertical-align:top;'>
-    <h1 style='text-align:center;margin-top:-70px;'>Remember Your Umbrella</h1>
-</div>
+<!--<div class='col l2 headerRainClass'>
+    <img src='images/rain.jpg' class='rainImgHead' id='rainImgHeadLef'>
+</div>-->
 
 
-</div>
 </div>
 
 <br/>
