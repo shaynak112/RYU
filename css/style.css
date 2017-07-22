@@ -123,7 +123,6 @@ h2, h3, h4
 {
 
 	height:150px !important;
-	margin-left:3%;
 }
 
 #stop
@@ -169,6 +168,41 @@ h2, h3, h4
 		font-size:1.4em;
 	}
 
+	h3
+	{
+		width:300% !important;
+	}
+
+	#basicInfoCol1
+	{
+		display:none;
+		/*visibility:none;*/
+	}
+
+
+	#arrivalsCol2
+	{
+		width:300% !important;
+		margin-left:10% !important;
+		/*display:table-header-group !important;
+		position:absolute !important;*/
+		
+	}
+
+	#weatherCol3 
+	{
+		vertical-align:initial !important;
+		margin-left:10% !important;
+		/*margin-top:600px;*/
+		width:300% !important;
+		color:red !important;
+		/*position:relative !important;*/
+		display:inline-block !important;
+		
+	}
+
+
+
 	.indexPicsCar
 	{
 		width:50%;
@@ -181,12 +215,15 @@ h2, h3, h4
 		margin-bottom:15px;
 	}
 
-
 	.rainImg
 	{
 		width:55%;
 		margin-left:25%;
 	}
+
+
+
+
 
 
 
@@ -234,11 +271,6 @@ h2, h3, h4
 	}
 
 
-	#stop
-	{
-		display:none;
-		visibility:none;
-	}
 
 }
 
