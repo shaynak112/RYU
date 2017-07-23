@@ -163,6 +163,16 @@ h2, h3, h4
 @media all and (max-width:768px)
 {
 
+	.RYUheader
+	{
+		margin-top:50px;
+	}
+
+	h1
+	{
+		font-size:1.9em;
+	}
+
 	h2
 	{
 		font-size:1.4em;
@@ -170,6 +180,7 @@ h2, h3, h4
 
 	h3
 	{
+		font-size:1.4em;
 		width:300% !important;
 	}
 
@@ -182,8 +193,9 @@ h2, h3, h4
 
 	#arrivalsCol2
 	{
-		width:300% !important;
+		width:400% !important;
 		margin-left:10% !important;
+		margin-bottom:30px;
 		/*display:table-header-group !important;
 		position:absolute !important;*/
 		
@@ -194,8 +206,7 @@ h2, h3, h4
 		vertical-align:initial !important;
 		margin-left:10% !important;
 		/*margin-top:600px;*/
-		width:300% !important;
-		color:red !important;
+		width:400% !important;
 		/*position:relative !important;*/
 		display:inline-block !important;
 		
@@ -236,10 +247,26 @@ h2, h3, h4
 @media all and (max-width:480px)
 {
 
+	.RYUheader
+	{
+		margin-top:20px;
+	}
+
+	h1
+	{
+		font-size:1.7em;
+	}
+
 	h2
 	{
-		font-size:1em;
+		font-size:1.3em;
 	}
+
+	h3
+	{
+		font-size:1.1em;
+	}
+
 
 	.chooseRoute
 	{
