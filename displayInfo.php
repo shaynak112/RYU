@@ -101,6 +101,7 @@ include 'getContent.php';
 
 	<div class='col l4' id='weatherCol3'>
 
+
 <?php
 
 
